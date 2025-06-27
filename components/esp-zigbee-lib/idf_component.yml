@@ -2,5 +2,5 @@ version: "1.6.5"
 description: esp-zigbee library component
 url: https://github.com/espressif/esp-zigbee-sdk
 dependencies:
-  idf:
-    version: ">=5.0"
+  espressif/esp-zboss-lib: ">=1.5.0"
+  idf: ">=5.0.0"
